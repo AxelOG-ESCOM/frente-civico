@@ -3,7 +3,7 @@
 Esta es una landing page interactiva desarrollada para la ONG "Frente Cívico". El proyecto busca incentivar la participación ciudadana mediante un formulario de adhesión condicional y responsivo.
 
 ## Enlace en vivo (Demo)
-[Aquí debes pegar el enlace de GitHub Pages cuando lo subas]
+https://axelog-escom.github.io/frente-civico/#registro
 
 ## Tecnologías utilizadas
 - **React (Vite):** Para la arquitectura de componentes y manejo de estados (useState).
