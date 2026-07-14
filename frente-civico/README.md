@@ -1,16 +1,36 @@
-# React + Vite
+# Frente Cívico - Landing Page & Registro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una landing page interactiva desarrollada para la ONG "Frente Cívico". El proyecto busca incentivar la participación ciudadana mediante un formulario de adhesión condicional y responsivo.
 
-Currently, two official plugins are available:
+## Enlace en vivo (Demo)
+[Aquí debes pegar el enlace de GitHub Pages cuando lo subas]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
+- **React (Vite):** Para la arquitectura de componentes y manejo de estados (useState).
+- **Tailwind CSS (v4):** Para el diseño de interfaz (UI), responsividad (Mobile-first) y estilos condicionales.
+- **JavaScript (ES6):** Para la lógica del formulario y temporizadores.
+- **Iconos:** SVGs nativos para mantener el proyecto ligero.
 
-## React Compiler
+## Características Principales
+1. **Diseño UI "Expediente Ciudadano":** Estética limpia y formal, alejada de plantillas convencionales.
+2. **Formulario Condicional Inteligente:** Los campos requeridos se adaptan dependiendo de si el usuario se registra como "Ciudadano" o como "Organización".
+3. **Validación Nivel Front-End:** Bloqueo de envío si hay campos vacíos.
+4. **UX de Envío:** Simulación de carga, mensaje de éxito visual y reinicio automático del estado de los inputs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instrucciones para correr en local
+Si deseas clonar este repositorio y correrlo en tu máquina:
 
-## Expanding the ESLint configuration
+1. Clona el repositorio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   git clone [https://github.com/AxelOG-ESCOM/frente-civico.git](https://github.com/AxelOG-ESCOM/frente-civico.git)
+
+2. Instala las dependencias:
+
+    npm install
+
+3. Levantar el servidor de desarrollo
+
+    npm run dev
+
+4. Abre http://localhost:5173/ en tu navegador.
+
