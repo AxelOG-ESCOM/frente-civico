@@ -86,7 +86,7 @@ export default function App() {
 
       <nav className="border-b-2 border-stone-200 bg-white px-6 py-3 flex flex-wrap justify-between items-center sticky top-0 z-50 shadow-sm gap-4">
         <div className="flex items-center gap-3">
-          <img src={logoIcon} alt="Logo Frente Cívico" className="h-16 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform" />
+          <img src="/frente-civico/logo.svg" alt="Logo Frente Cívico" className="h-16 w-auto object-contain drop-shadow-sm hover:scale-105 transition-transform" />
           <span className="font-bold text-xl tracking-tight text-stone-800">Frente Cívico</span>
         </div>
         
